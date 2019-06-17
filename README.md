@@ -2,7 +2,7 @@
 
 A talk about GIT that focuses on collaboration. 
 
---- 
+---
 - [SLIDES](https://thomas.weinert.info/talk-git/)
  → Live preview from this repository.
 ---
