@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>GIT</title>
+
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.css">
+    <link rel="stylesheet" href="bower_components/reveal.js/css/theme/black.css" id="theme">
+
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/highlight.js/styles/idea.css">
+
+    <style type="text/css">
+      @media print {
+        body.print-pdf .slide-menu-button {
+          display: none;
+        }
+      }
+      .hljs-tag {
+        background-color: transparent;
+      }
+    </style>
+
+    <!--[if lt IE 9]>
+      <script src="bower_components/reveal.js/lib/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <style>
+      body > div.reveal {
+        background: radial-gradient(
+          ellipse at center,
+          rgba(255,255,255,0.1) 0%,
+          rgba(255,255,255,0.15) 50%,
+          rgba(255,255,255,0) 100%
+        );
+      }
+      ul.code {
+        font-family: monospace;
+      }
+
+      .reveal section ul li code,
+      .reveal code {
+        font-family: "Source Code Pro", monospace;
+      }
+      .reveal code .placeholder {
+        opacity: 0.65;
+      }
+      .reveal section img.scribble {
+        border: 1px solid silver;
+        background: white;
+        padding: 10px;
+      }
+      .reveal section img.borderless {
+        border: none;
+        background: none;
+        padding: 0;
+        box-shadow: none;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="reveal" data-video="small top-right">
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+        <section>
+          <section>
+            <h1>GIT - Develop Together</h1>
+            <p>
+              <small>@ThomasWeinert</small>
+            </p>
+          </section>
+          <section>
+            <h2>About Me</h2>
+            <div style="display: flex; align-items: center; justify-content: space-around;">
+              <ul>
+                <li><a href="http://www.dimensional.de">dimensional GmbH</a></li>
+                <li>Application Developer</li>
+                <li>PHP > 20 years</li>
+                <li>XML Fanatic</li>
+                <li>Brompton Rider</li>
+              </ul>
+              <div>
+                <img src="images/office.jpg" style="height: 400px"/>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h2>Repositories</h2>
+          </section>
+          <section>
+            <h3>Remote</h3>
+            <img src="images/remotes.svg" class="scribble"/>
+          </section>
+          <section>
+            <h3>Local</h3>
+            <img src="images/local.svg" class="scribble"/>
+          </section>
+          <section>
+            <h3>Working Copy</h3>
+            <img src="images/working-copy.svg" class="scribble"/>
+          </section>
+          <section>
+            <h3>Stash</h3>
+            <img src="images/stash.svg" class="scribble"/>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h2>Master</h2>
+          </section>
+          <section>
+            <h3>Stable</h3>
+            <img src="images/master-stable.svg" class="scribble"/>
+          </section>
+          <section>
+            <h3>Unstable</h3>
+            <img src="images/master-unstable.svg" class="scribble"/>
+          </section>
+          <section>
+            <h3>Unstable Master + Stages</h3>
+            <img src="images/master-unstable-with-stages.svg" class="scribble"/>
+          </section>
+          <section>
+            <h3>Protected Branches</h3>
+            <img src="images/minifig-police-stop.png" class="borderless"/>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h2>Feature Branches</h2>
+            <img src="images/feature-branches.svg" class="scribble"/>
+          </section>
+          <section>
+            <h3>Naming</h3>
+            <ul>
+              <li><code>issue-123_summary_of_issue</code></li>
+              <li><code>feature/feature_title</code></li>
+              <li><code>hotfix/summary_of_bug</code></li>
+              <li>...</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Create</h3>
+            <pre><code class="language-shell">$ git checkout -b new_branch_name</code></pre>
+            <pre class="fragment"><code class="language-shell">$ git branch new_branch_name
+$ git checkout new_branch_name</code></pre>
+            <img src="images/intellj-open-task.png" style="height: 400px;" class="fragment borderless"/>
+          </section>
+          <section>
+            <h3>Maintain</h3>
+            <pre><code class="language-shell">$ git rebase master</code></pre>
+            <img src="images/rebase.svg" class="scribble"/>
+          </section>
+          <section>
+            <h3>Fast Forward Merge</h3>
+            <pre><code class="language-shell">$ git rebase master
+$ git checkout master
+$ git merge --ff-only feature_branch</code></pre>
+            <img src="images/fast-forward.svg" class="scribble"/>
+          </section>
+          <section>
+            <h3>Merge</h3>
+            <pre><code class="language-shell">$ git checkout master
+$ git merge --no-ff feature_branch</code></pre>
+            <img src="images/merge.svg" class="scribble"/>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h2>Release Branches</h2>
+          </section>
+          <section>
+            <h3>Semantic Versions</h3>
+            <p><code>MAJOR.MINOR.PATCH</code></p>
+            <ul>
+              <li class="fragment">PATCH: Bugfixes</li>
+              <li class="fragment">MINOR: New Features</li>
+              <li class="fragment">MAJOR: Breaking Changes</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Upside: Users</h3>
+            <div style="display: flex; align-items: center;">
+              <img src="images/minifig-magican.png" style="height: 400px" class="borderless"/>
+              <ul>
+                <li>Risk Evaluation</li>
+                <li>Dependency Management</li>
+              </ul>
+            </div>
+          </section>
+          <section>
+            <h3>Downside: Marketing</h3>
+            <ul>
+              <li>Small Increments</li>
+              <li>No new features <br/>in major versions</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Tags</h3>
+            <img src="images/release-tags.svg" class="scribble"/>
+          </section>
+          <section>
+            <h3>Release Branches</h3>
+            <img src="images/release-branches.svg" class="scribble"/>
+          </section>
+          <section>
+            <h3>Stale Branches</h3>
+              <img src="images/robot-clean-branches.png" style="height: 400px" class="borderless"/>
+          </section>
+          <section>
+            <h3>Development Revision</h3>
+            <pre><code class="language-shell">$ git describe --tags
+5.9.0-4-gb6a908b</code></pre>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h2>Commits</h2>
+          </section>
+          <section>
+            <h3>Don'ts</h3>
+            <ul>
+              <li class="fragment">"End of day" commits</li>
+              <li class="fragment">"Per file" commit</li>
+              <li class="fragment">Generic commit messages (misc fixes)</li>
+              <li class="fragment">Two changes in one commit</li>
+              <li class="fragment">Whitespace changes together with code changes</li>
+              <li class="fragment">Code drops</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Dos</h3>
+            <ul>
+              <li class="fragment">"Per logical change" commit</li>
+              <li class="fragment">Descriptive commit messages</li>
+            </ul>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h2>Commit Messages</h2>
+            <img src="https://imgs.xkcd.com/comics/git_commit.png"/>
+          </section>
+          <section>
+            <h3>Structure</h3>
+            <pre><code class="language-markdown">#123 - Add summary of less then 50 chars
+
+A more detailed description in present tense that answers the
+following questions:
+
+  - Why is it necessary?
+  - How does it address the issue?
+  - What effects does the patch have?
+
+Resolves: #123
+Related: #456
+            </code></pre>
+          </section>
+          <section>
+            <h3>Summary</h3>
+            <ul>
+              <li>Imperative (Add, Fix, ...)</li>
+              <li>50 characters limit</li>
+              <li>Capitalize</li>
+              <li>Blank line between summary and description</li>
+              <li>Reference issue</li>
+              <li>Labels ([BUGFIX], [FEATURE], [!!!])</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Summary</h3>
+            <p>
+              <em>if applied, this commit will...</em>
+            </p>
+          </section>
+          <section>
+            <h3>Description</h3>
+            <ul>
+              <li>Present tense</li>
+              <li>72 characters line limit</li>
+              <li>Describe the solution (problem is described in the issue)</li>
+              <li>Blank line between description and footer</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Footer</h3>
+            <ul>
+              <li>Reference additional relationships (issues/stories/tasks)</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Example Gitlab</h3>
+            <img src="images/commit-example-gitlab.png"/>
+          </section>
+          <section>
+            <h3>Example Jira</h3>
+            <img src="images/jira_issue_reference.png"/>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h2>Merge/Pull Requests</h2>
+          </section>
+          <section>
+            <h3>Suggestion</h3>
+            <img src="images/suggest-merge-github.png"/>
+          </section>
+          <section>
+            <h3>Create Request</h3>
+            <img src="images/create-merge-github.png" style="height: 500px"/>
+          </section>
+          <section>
+            <h3>WIP Request</h3>
+            <img src="images/wip-merge-github.png" style="height: 500px"/>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h2>Configuration</h2>
+          </section>
+          <section>
+            <h3>Line Endings</h3>
+            <ul>
+              <li class="fragment"><strong><code>core.autocrlf=input</code><br> Checkout LF, commit LF</strong></li>
+              <li class="fragment"><code>core.autocrlf=true</code><br> Checkout OS specific, commit LF</li>
+              <li class="fragment"><code>core.autocrlf=false</code><br> Checkout as is, commit as is</li>
+            </ul>
+          </section>
+          <section>
+            <h3>.editorconfig</h3>
+            <pre><code class="language-ini"># top-most EditorConfig file
+root=true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line=lf
+insert_final_newline=true
+indent_style=space
+indent_size=2
+charset=utf-8
+
+[*.bat]
+end_of_line=crlf</code></pre>
+          </section>
+          <section>
+            <h3>.gitignore</h3>
+            <pre><code class="language-ini"># NPM
+node_modules/
+# Composer
+vendor/
+
+# Build Artifacts
+build/
+</code></pre>
+          </section>
+          <section>
+            <h3>.gitignore_global</h3>
+            <pre><code class="language-shell">$ git config --global core.excludesfile \
+  '~/.gitignore_global'
+$ git config --global core.excludesfile \
+  "%USERPROFILE%\.gitignore_global"
+</code></pre>
+            <pre class="fragment"><code class="language-ini"># IntelliJ
+.idea/
+*.iml</code></pre>
+          </section>
+          <section>
+            <h3>.gitproperties</h3>
+            <pre><code class="language-ini" data-noescape># Enforce line break style
+*.ts text eol=lf
+*.js text eol=lf
+*.php text eol=lf
+
+*.bat text eol=crlf
+
+<div class="fragment"># Exclude from export
+.gitattributes export-ignore
+.gitignore export-ignore
+/tests export-ignore</div></code></pre>
+          </section>
+        </section>
+      </div>
+
+    </div>
+
+    <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
+    <script src="bower_components/reveal.js/js/reveal.js"></script>
+
+    <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        slideNumber: "c/t",
+
+        //showNotes: isPrintView ? true /*"separate-page" */ : false,
+
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Parallax scrolling
+        //parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+        //parallaxBackgroundSize: '2100px 900px',
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'bower_components/reveal.js-menu/menu.js' },
+          { src: 'bower_components/reveal-badges/src/badges.js' },
+          { src: 'bower_components/reveal-presenter-keys/src/presenter-keys.js' },
+          { src: 'bower_components/reveal-print/src/print.js' },
+          { src: 'bower_components/reveal-sampler/sampler.js' },
+
+          { src: 'bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+        ],
+
+        menu: {
+          side: 'left',
+          markers: true,
+          numbers: false,
+          themes: [
+            { name: 'Black', theme: 'bower_components/reveal.js/css/theme/black.css' },
+            { name: 'White', theme: 'bower_components/reveal.js/css/theme/white.css' }
+          ]
+        },
+
+        badges: {
+          languages : false
+        },
+
+        presenter: {
+          profile: 'Lenovo Yoga Mouse'
+        },
+
+        sampler: {
+          proxyURL: document.location.href.match(/http:\/\/localhost/) ? 'task.php?file=' : '',
+          removeIndentation: true,
+          lineNumbers: 'original'
+        }
+
+      });
+
+    </script>
+
+  </body>
+</html>
