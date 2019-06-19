@@ -102,9 +102,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.1747964"
-     inkscape:cx="359.55004"
-     inkscape:cy="-63.450181"
+     inkscape:zoom="3.3228261"
+     inkscape:cx="446.70195"
+     inkscape:cy="170.94503"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -113,10 +113,10 @@
      fit-margin-left="10"
      fit-margin-right="10"
      fit-margin-bottom="10"
-     inkscape:window-width="1720"
-     inkscape:window-height="1377"
-     inkscape:window-x="1712"
-     inkscape:window-y="-8"
+     inkscape:window-width="6880"
+     inkscape:window-height="2755"
+     inkscape:window-x="-13"
+     inkscape:window-y="-13"
      inkscape:window-maximized="1"
      showguides="false" />
   <metadata
@@ -127,7 +127,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -136,58 +136,55 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-93.067416,-443.08053)">
-    <g
-       id="g95">
-      <rect
-         transform="rotate(90)"
-         ry="0.95832211"
-         y="-306.63586"
-         x="514.90186"
-         height="198.5096"
-         width="46.62772"
-         id="rect4584"
-         style="opacity:1;fill:#73d216;fill-opacity:1;stroke:#4e9a06;stroke-width:10.11770058;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <text
-         id="text4588"
-         y="546.58112"
-         x="119.42501"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:23.75877571px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.96984696"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';fill:#ffffff;fill-opacity:1;stroke-width:2.96984696"
-           y="546.58112"
-           x="119.42501"
-           id="tspan4586"
-           sodipodi:role="line">MAIN/PROJECT</tspan></text>
-    </g>
     <rect
-       ry="1.4383713"
-       y="-870.23608"
+       style="opacity:1;fill:#73d216;fill-opacity:1;stroke:#4e9a06;stroke-width:10.11770058;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4584"
+       width="46.62772"
+       height="198.5096"
        x="514.90186"
-       height="297.94836"
+       y="-306.63586"
+       ry="0.95832211"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:23.75877571px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.96984696"
+       x="119.42501"
+       y="546.58112"
+       id="text4588"><tspan
+         sodipodi:role="line"
+         id="tspan4586"
+         x="119.42501"
+         y="546.58112"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';fill:#ffffff;fill-opacity:1;stroke-width:2.96984696">MAIN/PROJECT</tspan></text>
+    <rect
+       ry="1.0902568"
+       y="-710.4519"
+       x="514.90186"
+       height="225.83891"
        width="46.62772"
        id="rect5214"
-       style="opacity:1;fill:#73d216;fill-opacity:1;stroke:#4e9a06;stroke-width:12.39542866;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#73d216;fill-opacity:1;stroke:#4e9a06;stroke-width:10.79171371;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="rotate(90)" />
     <text
        id="text5218"
        y="546.58112"
-       x="583.58655"
+       x="495.9118"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:23.75877571px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.96984696"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';fill:#ffffff;fill-opacity:1;stroke-width:2.96984696"
          y="546.58112"
-         x="583.58655"
+         x="495.9118"
          id="tspan5216"
-         sodipodi:role="line">YOUR-REMOTE/PROJECT</tspan></text>
+         sodipodi:role="line">FORK A/PROJECT</tspan></text>
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path5878"
-       d="M 719.05323,209.24077 C 559.45598,216.54661 616.02242,407.24124 453.6469,266.10189"
+       d="M 516.46494,605.05402 C 356.86769,612.35986 413.43413,803.05449 251.05861,661.91514"
        style="fill:none;stroke:#000000;stroke-width:7.0761013;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;marker-end:url(#marker5882)" />
     <rect
        ry="0.67450583"
-       y="-767.8255"
+       y="-680.15076"
        x="582.31433"
        height="139.71907"
        width="46.62772"
@@ -197,12 +194,12 @@
     <text
        id="text6280"
        y="613.99365"
-       x="639.40527"
+       x="551.73053"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:23.75877571px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.96984696"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';fill:#ffffff;fill-opacity:1;stroke-width:2.96984696"
          y="613.99365"
-         x="639.40527"
+         x="551.73053"
          id="tspan6278"
          sodipodi:role="line">BRANCH A</tspan></text>
     <rect
@@ -227,7 +224,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';fill:#ffffff;fill-opacity:1;stroke-width:2.96984696">MASTER</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:7.0761013;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;marker-end:url(#marker7130)"
-       d="m 319.04263,534.03014 c 68.049,72.02865 243.90328,-162.05988 328.84169,-39.44244"
+       d="m 319.04263,534.03014 c 68.049,72.02865 142.60914,-162.05988 227.54755,-39.44244"
        id="path7126"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -244,139 +241,14 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';stroke-width:2.74955392">Fork</tspan></text>
     <text
        id="text8068"
-       y="633.33075"
-       x="384.26257"
+       y="696.32037"
+       x="443.84735"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.99643135px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.74955392"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';stroke-width:2.74955392"
-         y="633.33075"
-         x="384.26257"
+         y="696.32037"
+         x="443.84735"
          id="tspan8066"
          sodipodi:role="line">Merge</tspan></text>
-    <g
-       id="g72"
-       transform="translate(17.024226,71.501749)">
-      <rect
-         ry="1.4383713"
-         y="-568.05609"
-         x="824.74274"
-         height="297.94836"
-         width="46.62772"
-         id="rect44"
-         style="opacity:1;fill:#73d216;fill-opacity:1;stroke:#4e9a06;stroke-width:12.39542866;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         transform="rotate(90)" />
-      <text
-         id="text48"
-         y="856.422"
-         x="281.40656"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:23.75877571px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.96984696"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';fill:#ffffff;fill-opacity:1;stroke-width:2.96984696"
-           y="856.422"
-           x="281.40656"
-           id="tspan46"
-           sodipodi:role="line">YOUR-LOCAL/PROJECT</tspan></text>
-    </g>
-    <g
-       id="g67"
-       transform="translate(116.61594,72.352963)">
-      <rect
-         ry="0.67450583"
-         y="-465.64551"
-         x="892.15521"
-         height="139.71907"
-         width="46.62772"
-         id="rect50"
-         style="opacity:1;fill:#cc0000;fill-opacity:1;stroke:#a40000;stroke-width:8.48826408;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         transform="rotate(90)" />
-      <text
-         id="text54"
-         y="923.83453"
-         x="337.22528"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:23.75877571px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.96984696"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';fill:#ffffff;fill-opacity:1;stroke-width:2.96984696"
-           y="923.83453"
-           x="337.22528"
-           id="tspan52"
-           sodipodi:role="line">BRANCH A</tspan></text>
-    </g>
-    <g
-       id="g77"
-       transform="translate(18.726649,80.865074)">
-      <rect
-         ry="0.96253532"
-         y="-544.8866"
-         x="612.10675"
-         height="199.38232"
-         width="46.62772"
-         id="rect58"
-         style="opacity:1;fill:#3465a4;fill-opacity:1;stroke:#204a87;stroke-width:10.13991642;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         transform="rotate(90)" />
-      <text
-         id="text62"
-         y="643.78607"
-         x="356.80313"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:23.75877571px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.96984696"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';fill:#ffffff;fill-opacity:1;stroke-width:2.96984696"
-           y="643.78607"
-           x="356.80313"
-           id="tspan60"
-           sodipodi:role="line">CONTRIBUTION</tspan></text>
-    </g>
-    <g
-       id="g90">
-      <rect
-         style="opacity:1;fill:#cc0000;fill-opacity:1;stroke:#a40000;stroke-width:7.53632259;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect81"
-         width="46.62772"
-         height="110.13794"
-         x="582.31433"
-         y="-267.22382"
-         ry="0.53170037"
-         transform="rotate(90)" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:23.75877571px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.96984696"
-         x="168.38464"
-         y="613.99365"
-         id="text85"><tspan
-           sodipodi:role="line"
-           id="tspan83"
-           x="168.38464"
-           y="613.99365"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';fill:#ffffff;fill-opacity:1;stroke-width:2.96984696">MASTER</tspan></text>
-    </g>
-    <g
-       id="g103"
-       transform="translate(128.53291,381.34266)">
-      <rect
-         transform="rotate(90)"
-         ry="0.53170037"
-         y="-267.22382"
-         x="582.31433"
-         height="110.13794"
-         width="46.62772"
-         id="rect97"
-         style="opacity:1;fill:#cc0000;fill-opacity:1;stroke:#a40000;stroke-width:7.53632259;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <text
-         id="text101"
-         y="613.99365"
-         x="168.38464"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:23.75877571px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.96984696"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';fill:#ffffff;fill-opacity:1;stroke-width:2.96984696"
-           y="613.99365"
-           x="168.38464"
-           id="tspan99"
-           sodipodi:role="line">MASTER</tspan></text>
-    </g>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:7.0761013;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;marker-end:url(#marker5882)"
-       d="m 221.09462,651.01944 c -98.31004,44.75914 -104.73323,335.04549 42.73216,342.01691"
-       id="path105"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
   </g>
 </svg>
