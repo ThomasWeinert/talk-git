@@ -127,7 +127,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -338,29 +338,6 @@
            sodipodi:role="line">CONTRIBUTION</tspan></text>
     </g>
     <g
-       id="g90">
-      <rect
-         style="opacity:1;fill:#cc0000;fill-opacity:1;stroke:#a40000;stroke-width:7.53632259;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect81"
-         width="46.62772"
-         height="110.13794"
-         x="582.31433"
-         y="-267.22382"
-         ry="0.53170037"
-         transform="rotate(90)" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:23.75877571px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.96984696"
-         x="168.38464"
-         y="613.99365"
-         id="text85"><tspan
-           sodipodi:role="line"
-           id="tspan83"
-           x="168.38464"
-           y="613.99365"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';fill:#ffffff;fill-opacity:1;stroke-width:2.96984696">MASTER</tspan></text>
-    </g>
-    <g
        id="g103"
        transform="translate(128.53291,381.34266)">
       <rect
@@ -405,34 +382,34 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.99643135px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.74955392"
-       x="637.92352"
-       y="668.23041"
+       x="656.65015"
+       y="679.29614"
        id="text124"><tspan
          sodipodi:role="line"
          id="tspan122"
-         x="637.92352"
-         y="668.23041"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';stroke-width:2.74955392">Provide</tspan></text>
+         x="656.65015"
+         y="679.29614"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';stroke-width:2.74955392">Create</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.99643135px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.74955392"
-       x="230.19333"
-       y="832.51416"
+       x="196.99609"
+       y="885.28925"
        id="text138"><tspan
          sodipodi:role="line"
          id="tspan136"
-         x="230.19333"
-         y="832.51416"
+         x="196.99609"
+         y="885.28925"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';stroke-width:2.74955392">Pull</tspan></text>
     <text
        id="text152"
-       y="831.66296"
-       x="683.03778"
+       y="910.82562"
+       x="711.12775"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.99643135px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.74955392"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold';stroke-width:2.74955392"
-         y="831.66296"
-         x="683.03778"
+         y="910.82562"
+         x="711.12775"
          id="tspan150"
          sodipodi:role="line">Push</tspan></text>
   </g>
