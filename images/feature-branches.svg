@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg version="1.1" viewBox="0 0 940 340" xmlns="http://www.w3.org/2000/svg">
-  <g transform="translate(-70 -512.52)">
-    <g fill="none" stroke="#000">
+  <g stroke="#000">
+    <path d="m767.66 167.03-117.85-118.08" fill="none" stroke-width="6"/>
+    <g transform="translate(-70,-512.52)" fill="none">
       <g stroke-width="6">
         <path d="m719.81 561.47-483.76 0.86577"/>
         <path d="m117.85 680.73 118.2-118.4"/>
@@ -12,17 +13,17 @@
       </g>
       <path d="m117.85 684.3h841.43" stroke-width="5.9988"/>
     </g>
-    <g stroke-linecap="square" stroke-width="3.2887">
-      <circle cx="120" cy="682.52" r="38.356" fill="#888a85" stroke="#000"/>
-      <circle cx="240" cy="802.52" r="38.356" fill="#c00" stroke="#a40000"/>
-      <circle cx="360" cy="802.52" r="38.356" fill="#c00" stroke="#a40000"/>
-      <circle cx="480" cy="682.52" r="38.356" fill="#3465a4" stroke="#204a87"/>
-      <circle cx="600" cy="562.52" r="38.356" fill="#c00" stroke="#a40000"/>
-      <circle cx="720" cy="562.52" r="38.356" fill="#c00" stroke="#a40000"/>
-      <circle cx="840" cy="682.52" r="38.356" fill="#3465a4" stroke="#204a87"/>
-      <circle cx="960" cy="682.52" r="38.356" fill="#888a85" stroke="#000"/>
-    </g>
-    <g fill="#c00" stroke="#a40000" stroke-linecap="square" stroke-width="3.2887">
+    <circle cx="50" cy="170" r="38.356" fill="#888a85" stroke-linecap="square" stroke-width="3.2887"/>
+  </g>
+  <g stroke-linecap="square" stroke-width="3.2887">
+    <circle cx="170" cy="290" r="38.356" fill="#c00" stroke="#a40000"/>
+    <circle cx="290" cy="290" r="38.356" fill="#c00" stroke="#a40000"/>
+    <circle cx="410" cy="170" r="38.356" fill="#f57900" stroke="#ce5c00"/>
+    <circle cx="530" cy="50" r="38.356" fill="#c00" stroke="#a40000"/>
+    <circle cx="650" cy="50" r="38.356" fill="#c00" stroke="#a40000"/>
+    <circle cx="770" cy="170" r="38.356" fill="#f57900" stroke="#ce5c00"/>
+    <circle cx="890" cy="170" r="38.356" fill="#3465a4" stroke="#204a87"/>
+    <g transform="translate(-70,-512.52)" fill="#c00" stroke="#a40000">
       <circle cx="480" cy="562.52" r="38.356"/>
       <circle cx="360" cy="562.52" r="38.356"/>
       <circle cx="240" cy="562.52" r="38.356"/>
