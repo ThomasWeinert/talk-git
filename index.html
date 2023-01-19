@@ -111,7 +111,7 @@
             <div style="display: flex; align-items: center; justify-content: space-around;">
               <ul>
                 <li>Repositories</li>
-                <li>MASTER Branch</li>
+                <li>Main Branch</li>
                 <li>Feature Branches</li>
                 <li>Releases</li>
                 <li>Commits</li>
@@ -151,19 +151,19 @@
 
         <section>
           <section>
-            <h2>Master</h2>
+            <h2>Main</h2>
           </section>
           <section>
             <h3>Stable</h3>
-            <img src="images/master-stable.svg" class="scribble"/>
+            <img src="images/main-stable.svg" class="scribble"/>
           </section>
           <section>
             <h3>Unstable</h3>
-            <img src="images/master-unstable.svg" class="scribble"/>
+            <img src="images/main-unstable.svg" class="scribble"/>
           </section>
           <section>
-            <h3>Unstable Master + Stages</h3>
-            <img src="images/master-unstable-with-stages.svg" class="scribble"/>
+            <h3>Unstable Main + Stages</h3>
+            <img src="images/main-unstable-with-stages.svg" class="scribble"/>
           </section>
           <section>
             <h3>Protected Branches</h3>
@@ -178,35 +178,51 @@
           </section>
           <section>
             <h3>Naming</h3>
+            <div style="display: flex; gap: 2em;">
             <ul>
-              <li><code>issue-123_summary_of_issue</code></li>
+              <li><code>issue-123_summary</code></li>
               <li><code>feature/feature_title</code></li>
               <li><code>hotfix/summary_of_bug</code></li>
               <li>...</li>
             </ul>
+              <img
+                src="images/intellj-git-branches.png"
+                alt="Partial Intellij screenshot showing hierarchically displayed branches."
+                class="borderless"/>
+            </div>
           </section>
           <section>
-            <h3>Create</h3>
+            <h3>Initialize: Create</h3>
             <pre><code class="language-shell">$ git checkout -b new_branch_name</code></pre>
             <pre class="fragment"><code class="language-shell">$ git branch new_branch_name
 $ git checkout new_branch_name</code></pre>
             <img src="images/intellj-open-task.png" style="height: 400px;" class="fragment borderless"/>
           </section>
           <section>
-            <h3>Maintain</h3>
-            <pre><code class="language-shell">$ git rebase master</code></pre>
+            <h3>Maintain: Rebase</h3>
+            <pre><code class="language-shell">$ git rebase main</code></pre>
             <img src="images/rebase.svg" class="scribble"/>
           </section>
           <section>
-            <h3>Fast Forward Merge</h3>
-            <pre><code class="language-shell">$ git rebase master
-$ git checkout master
+            <h3>Optimize: Squash</h3>
+            <pre><code class="language-shell">git reset $(git merge-base main $(git rev-parse --abbrev-ref HEAD))</code></pre>
+            <img src="images/squash.svg" class="scribble"/>
+          </section>
+          <section>
+            <h3>Publish: Push</h3>
+            <pre><code class="language-shell">git push origin/main</code></pre>
+            <pre><code class="language-shell">git push origin/feature-branch --force</code></pre>
+          </section>
+          <section>
+            <h3>Integrate: Fast Forward Merge</h3>
+            <pre><code class="language-shell">$ git rebase main
+$ git checkout main
 $ git merge --ff-only feature_branch</code></pre>
             <img src="images/fast-forward.svg" class="scribble"/>
           </section>
           <section>
-            <h3>Merge</h3>
-            <pre><code class="language-shell">$ git checkout master
+            <h3>Integrate: Merge</h3>
+            <pre><code class="language-shell">$ git checkout main
 $ git merge --no-ff feature_branch</code></pre>
             <img src="images/merge.svg" class="scribble"/>
           </section>
@@ -258,6 +274,9 @@ $ git merge --no-ff feature_branch</code></pre>
             <h3>Development Revision</h3>
             <pre><code class="language-shell">$ git describe --tags
 5.9.0-4-gb6a908b</code></pre>
+            <span style="font-size: 48px">
+              <span style="color: forestgreen;">5.9.0</span>-<span style="color: red;">4</span>-g<span style="color: orange;">b6a908b</span>
+            </span>
           </section>
         </section>
 
@@ -297,7 +316,7 @@ $ git merge --no-ff feature_branch</code></pre>
           </section>
           <section>
             <h3>Structure</h3>
-            <pre><code class="language-markdown">#123 - Add summary of less then 50 chars
+            <pre><code class="language-markdown">[LABEL] Add Summary Of Less Then 50 Chars
 
 A more detailed description in present tense that answers the
 following questions:
@@ -308,6 +327,7 @@ following questions:
 
 Resolves: #123
 Related: #456
+Related: https://example.com/related-info
             </code></pre>
           </section>
           <section>
@@ -493,6 +513,25 @@ $ git config --global commit.gpgsign true</code></pre>
           <section>
             <h3 style="text-transform: none;">CODE_OF_CONDUCT.md</h3>
             <p>Social Rules</p>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h2>Hooks</h2>
+            <ul>
+              <li>pre-commit</li>
+              <li>prepare-commit-msg</li>
+              <li>commit-msg</li>
+              <li>post-commit</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Automate Hooks</h3>
+            <ul>
+              <li>Node.js - Husky</li>
+              <li>PHP - Captain Hook</li>
+            </ul>
           </section>
         </section>
 
