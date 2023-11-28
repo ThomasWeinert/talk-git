@@ -17,7 +17,7 @@ deck.initialize(
       markers: true,
       numbers: false,
       themes: [
-        {name: 'Black', theme: './node_modules/reveal.js/dist/theme/black.css'},
+        {name: 'Black', theme: './node_modules/@thomasweinert/reveal-shared-files/themes/black-gradient.css'},
         {name: 'White', theme: './node_modules/reveal.js/dist/theme/white.css'}
       ],
     },
